@@ -23,24 +23,24 @@ const navItems = [
   
   const bentoSocialLinks = [
     {
-      name: "Facebook",
-      href: "https://www.facebook.com/",
-      icon: "/images/fb.svg",
-    },
-    {
-      name: "Instagram",
-      href: "https://www.facebook.com/",
-      icon: "/images/insta.svg",
-    },
-    {
       name: "LinkedIn",
       href: "https://www.facebook.com/",
-      icon: "/images/linkedin.svg",
+      icon: "/images/linkedin.ico",
+    },
+    {
+      name: "GitHub",
+      href: "https://www.facebook.com/",
+      icon: "/images/github-48.png",
+    },
+    {
+      name: "Leetcode",
+      href: "https://www.facebook.com/",
+      icon: "/images/leetcode.png",
     },
     {
       name: "WhatsApp",
       href: "https://www.facebook.com/",
-      icon: "/images/whatsapp.svg",
+      icon: "/images/whatsapp.gif",
     },
   ];
   
@@ -158,17 +158,17 @@ const navItems = [
   
   const footerIconsList = [
     {
-      name: "Facebook",
+      name: "Linkedin",
       href: "https://www.facebook.com/",
       icon: "/images/b-fb.svg",
     },
     {
-      name: "Instagram",
+      name: "Github",
       href: "https://www.facebook.com/",
       icon: "/images/b-insta.svg",
     },
     {
-      name: "LinkedIn",
+      name: "Leetcode",
       href: "https://www.facebook.com/",
       icon: "/images/b-linked.svg",
     },
@@ -178,6 +178,13 @@ const navItems = [
       icon: "/images/b-whatsapp.svg",
     },
   ];
+
+
+  const AboutQuotes = [
+    "Be Yourself",
+    "Be Different",
+    "Build Different"
+  ]
   
   export {
     navItems,
@@ -186,4 +193,5 @@ const navItems = [
     slides,
     testimonials,
     footerIconsList,
+    AboutQuotes,
   };
